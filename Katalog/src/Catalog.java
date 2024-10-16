@@ -3,16 +3,21 @@ import java.util.List;
 
 public class Catalog {
 
-    private List <Product> product;
+    private List <Product> products;
 
     public Catalog () {
-        product = new ArrayList<>();
+        products = new ArrayList<>();
     }
 
     public void AddProduct (Product product) {
-
-
-
+        products.add(product);
     }
+
+    public void ListProducts () {
+        for (Product a : products) {
+            System.out.println(a);
+        }
+    }
+
 
 }
