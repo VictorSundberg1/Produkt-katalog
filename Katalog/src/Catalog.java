@@ -18,6 +18,4 @@ public class Catalog {
             System.out.println(a);
         }
     }
-
-
 }
